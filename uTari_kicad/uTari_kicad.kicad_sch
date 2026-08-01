@@ -2498,6 +2498,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x09"
 			(pin_names
 				(offset 1.016)
@@ -6257,145 +6444,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+9V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+9V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+9V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+9V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+9V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -6490,193 +6538,6 @@
 				)
 			)
 			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GNDPWR"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GNDPWR_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDPWR_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -6815,8 +6676,8 @@
 		)
 	)
 	(rectangle
-		(start 16.51 518.16)
-		(end 151.13 553.72)
+		(start 25.4 518.16)
+		(end 160.02 553.72)
 		(stroke
 			(width 0)
 			(type default)
@@ -6867,6 +6728,12 @@
 		(uuid "ca01488e-c248-4b6a-8af9-90156443c875")
 	)
 	(junction
+		(at 34.29 538.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0100c02a-edd5-4216-8dac-cedaa6d7c4a0")
+	)
+	(junction
 		(at 344.17 285.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6901,6 +6768,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1540e5d7-dd51-4ed3-a9dd-0ebca96f02ed")
+	)
+	(junction
+		(at 146.05 527.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16e38fee-f06d-4101-8e11-59bf220755f8")
 	)
 	(junction
 		(at 25.4 260.35)
@@ -6943,12 +6816,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "243d6dcc-5991-4865-9e49-fbdc2b55f83d")
-	)
-	(junction
-		(at 662.94 328.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "261df9ae-f03a-4042-be20-6acada44715e")
 	)
 	(junction
 		(at 746.76 234.95)
@@ -7392,7 +7259,7 @@
 		(at 360.68 308.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d4244896-6735-4ae8-9bcf-c27fd4d3d773")
+		(uuid "d1f146aa-0e41-418e-9245-eca21b668df3")
 	)
 	(junction
 		(at 50.8 341.63)
@@ -7419,10 +7286,22 @@
 		(uuid "de6056d3-8065-4649-bb0d-466c6c103d7b")
 	)
 	(junction
+		(at 34.29 535.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfceb83c-9423-4a86-b780-b7be835ec312")
+	)
+	(junction
 		(at 72.39 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8408af4-c908-4e1b-9051-cbfe58c5914e")
+	)
+	(junction
+		(at 86.36 538.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9faf590-ba2c-4b95-993d-fa51c6fa9d03")
 	)
 	(junction
 		(at 687.07 275.59)
@@ -7477,6 +7356,14 @@
 		(uuid "45c8a8bc-3c8c-4880-8f07-89c25ecf919e")
 	)
 	(no_connect
+		(at 34.29 311.15)
+		(uuid "833c343e-0fca-4580-a362-f53f90c14ed1")
+	)
+	(no_connect
+		(at 34.29 327.66)
+		(uuid "8644a440-f105-4c26-90fe-c9c5db422e48")
+	)
+	(no_connect
 		(at 140.97 262.89)
 		(uuid "a27bc06f-23f7-46df-a4a3-6141e3d43a8c")
 	)
@@ -7489,8 +7376,16 @@
 		(uuid "db8addd8-844d-49c9-bb76-421997f5fd28")
 	)
 	(no_connect
+		(at 86.36 533.4)
+		(uuid "e6a13b2f-0601-4237-a998-8e125c3b9e8b")
+	)
+	(no_connect
 		(at 100.33 306.07)
 		(uuid "ece5f4ce-4dc6-4aed-b4bf-15ccdce94df0")
+	)
+	(no_connect
+		(at 34.29 294.64)
+		(uuid "fa6fb5b5-3875-4fc4-b7b0-72f6a6379757")
 	)
 	(wire
 		(pts
@@ -7544,6 +7439,16 @@
 	)
 	(wire
 		(pts
+			(xy 718.82 139.7) (xy 711.2 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0300c1a0-7c63-4c06-b577-fa03c157d0af")
+	)
+	(wire
+		(pts
 			(xy 774.7 228.6) (xy 774.7 229.87)
 		)
 		(stroke
@@ -7564,7 +7469,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 525.78) (xy 146.05 538.48)
+			(xy 146.05 525.78) (xy 146.05 527.05)
 		)
 		(stroke
 			(width 0)
@@ -8004,7 +7909,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 363.4632) (xy 360.68 363.4632)
+			(xy 92.71 364.49) (xy 360.68 364.49)
 		)
 		(stroke
 			(width 0)
@@ -8354,6 +8259,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 527.05) (xy 146.05 538.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2970277b-b68d-4bed-ad7e-cee8871c3790")
+	)
+	(wire
+		(pts
 			(xy 312.42 303.53) (xy 346.71 303.53)
 		)
 		(stroke
@@ -8391,6 +8306,16 @@
 			(type default)
 		)
 		(uuid "2b5b76d2-2eca-41f9-bd4e-d1635da67e64")
+	)
+	(wire
+		(pts
+			(xy 681.99 139.7) (xy 675.64 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd7c6fa-f391-48c2-b33f-c6d39f05c548")
 	)
 	(wire
 		(pts
@@ -8964,16 +8889,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 323.85) (xy 92.71 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b76b661-054f-441b-bb69-62354c465bdd")
-	)
-	(wire
-		(pts
 			(xy 254 250.19) (xy 254 212.09)
 		)
 		(stroke
@@ -9314,6 +9229,16 @@
 	)
 	(wire
 		(pts
+			(xy 718.82 138.43) (xy 718.82 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd6704b-06c8-46e8-99df-71f2a33993b4")
+	)
+	(wire
+		(pts
 			(xy 816.61 466.09) (xy 816.61 283.21)
 		)
 		(stroke
@@ -9451,6 +9376,16 @@
 			(type default)
 		)
 		(uuid "63b041d2-6ad7-4ccf-a33b-c7ad48f1584d")
+	)
+	(wire
+		(pts
+			(xy 681.99 132.08) (xy 675.64 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64400eaa-4815-4914-b28f-7a12787e40b9")
 	)
 	(wire
 		(pts
@@ -9964,6 +9899,16 @@
 	)
 	(wire
 		(pts
+			(xy 718.82 132.08) (xy 711.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c1961fa-2088-4816-9608-87a581c7cc2f")
+	)
+	(wire
+		(pts
 			(xy 308.61 510.54) (xy 590.55 510.54)
 		)
 		(stroke
@@ -10011,6 +9956,16 @@
 			(type default)
 		)
 		(uuid "7eb9c449-a1fd-4b1c-9d00-8b42b58307dd")
+	)
+	(wire
+		(pts
+			(xy 681.99 133.35) (xy 681.99 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ecd4be7-0c48-4447-9d03-282d175656d9")
 	)
 	(wire
 		(pts
@@ -10161,6 +10116,16 @@
 			(type default)
 		)
 		(uuid "85a258fa-4208-4741-9839-5a6e615e7ec4")
+	)
+	(wire
+		(pts
+			(xy 681.99 138.43) (xy 681.99 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863c5b66-16ed-49f1-8185-fca7ed0700dd")
 	)
 	(wire
 		(pts
@@ -10564,6 +10529,16 @@
 	)
 	(wire
 		(pts
+			(xy 718.82 133.35) (xy 718.82 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f739ed-2b2e-4880-9baf-d54fbfca3ee2")
+	)
+	(wire
+		(pts
 			(xy 96.52 326.39) (xy 96.52 361.95)
 		)
 		(stroke
@@ -10771,6 +10746,16 @@
 			(type default)
 		)
 		(uuid "a7b28998-6984-4e15-bf55-01c85af1c394")
+	)
+	(wire
+		(pts
+			(xy 92.71 323.85) (xy 100.33 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e83a3b-40d2-42bc-9288-5064b4aa152b")
 	)
 	(wire
 		(pts
@@ -11081,6 +11066,16 @@
 			(type default)
 		)
 		(uuid "bb46f5d7-5ea0-463f-9332-d746ae0f88f3")
+	)
+	(wire
+		(pts
+			(xy 715.01 135.89) (xy 718.82 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb51a905-961b-4605-96e7-88efe01e0648")
 	)
 	(wire
 		(pts
@@ -11654,16 +11649,6 @@
 	)
 	(wire
 		(pts
-			(xy 662.94 328.93) (xy 664.21 328.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9fc0e98-2d7b-497e-b665-7147f1de4804")
-	)
-	(wire
-		(pts
 			(xy 433.07 285.75) (xy 431.8 285.75)
 		)
 		(stroke
@@ -11994,7 +11979,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 363.4632) (xy 360.68 308.61)
+			(xy 360.68 364.49) (xy 360.68 308.61)
 		)
 		(stroke
 			(width 0)
@@ -12224,7 +12209,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 323.85) (xy 92.71 363.4632)
+			(xy 92.71 323.85) (xy 92.71 364.49)
 		)
 		(stroke
 			(width 0)
@@ -12281,6 +12266,16 @@
 			(type default)
 		)
 		(uuid "fa5e08a8-9f2b-4a3f-b10d-724e132584e4")
+	)
+	(wire
+		(pts
+			(xy 679.45 135.89) (xy 681.99 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabe52b3-5141-440f-9205-446ffc076768")
 	)
 	(wire
 		(pts
@@ -12423,7 +12418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 374.65 280.3652 0)
 			(hide yes)
 			(show_name no)
@@ -12505,7 +12500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 719.582 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -12687,7 +12682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 702.31 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -12736,8 +12731,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 29.21 538.48 270)
+		(lib_id "power:PWR_FLAG")
+		(at 146.05 527.05 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12746,9 +12741,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "04678866-fb67-42d1-9c57-88d9d278661c")
-		(property "Reference" "#PWR02"
-			(at 24.13 538.48 0)
+		(uuid "05b6d5a1-78b9-48ad-8a26-31bb320748e1")
+		(property "Reference" "#FLG04"
+			(at 147.955 527.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12758,19 +12753,19 @@
 				)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 25.4 538.3529 90)
+		(property "Value" "PWR_FLAG"
+			(at 149.86 527.0499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 538.48 0)
+			(at 146.05 527.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12781,7 +12776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 538.48 0)
+			(at 146.05 527.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12791,8 +12786,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 29.21 538.48 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 146.05 527.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12803,12 +12798,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1fb65ca-059e-4eef-b7d4-99a6a7397eaa")
+			(uuid "b1c4ab57-7c4f-43d9-82aa-65873905fc9c")
 		)
 		(instances
 			(project "uTari_kicad"
 				(path "/a349f05f-5568-4b84-b3fc-0198b55a1cf7"
-					(reference "#PWR02")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -12924,7 +12919,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 741.68 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -13083,7 +13078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 726.44 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -13243,7 +13238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 715.772 274.32 90)
 			(hide yes)
 			(show_name no)
@@ -13323,7 +13318,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 114.3 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -13451,6 +13446,124 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_US")
+		(at 675.64 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10d081c9-d2ab-4786-a7bc-48f58b5b03db")
+		(property "Reference" "RV2"
+			(at 673.1 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Brightness"
+			(at 673.1 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
+			(at 675.64 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 675.64 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Potentiometer, US symbol"
+			(at 675.64 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 675.64 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 675.64 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 675.64 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b451478c-85c3-44cd-bdbf-19819afff835")
+		)
+		(pin "2"
+			(uuid "b99a0082-fc13-43a4-93d8-7f046f840d5d")
+		)
+		(pin "1"
+			(uuid "1ca55631-e2d7-41d8-9fe8-7ca5aa4ff4f5")
+		)
+		(instances
+			(project "uTari_kicad"
+				(path "/a349f05f-5568-4b84-b3fc-0198b55a1cf7"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 735.33 234.95 90)
 		(unit 1)
@@ -13482,7 +13595,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 735.33 236.728 90)
 			(hide yes)
 			(show_name no)
@@ -14134,7 +14247,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P7.50mm"
 			(at 656.59 369.57 0)
 			(hide yes)
 			(show_name no)
@@ -14216,7 +14329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 749.3 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -14453,7 +14566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 401.32 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -14888,7 +15001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 50.8 339.09 0)
 			(hide yes)
 			(show_name no)
@@ -15127,7 +15240,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 29.21 535.94 0)
 			(hide yes)
 			(show_name no)
@@ -15209,7 +15322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 720.09 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -15368,7 +15481,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 773.43 189.738 90)
 			(hide yes)
 			(show_name no)
@@ -15450,7 +15563,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 651.002 351.79 90)
 			(hide yes)
 			(show_name no)
@@ -15767,7 +15880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 254.762 265.43 90)
 			(hide yes)
 			(show_name no)
@@ -15847,7 +15960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical"
 			(at 38.1 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -16021,6 +16134,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 687.07 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "381dd1e0-2264-4527-809c-5085c6de78f3")
+		(property "Reference" "J8"
+			(at 689.61 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 699.77 137.1599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 687.07 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 687.07 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 687.07 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2a1589e7-dece-436c-aaf1-3f0aac1d00f3")
+		)
+		(pin "1"
+			(uuid "e0bea670-a164-4bfe-b00a-42b1242f27ea")
+		)
+		(pin "3"
+			(uuid "34c7b177-2bda-40cf-90f8-ca2c325e1bc0")
+		)
+		(instances
+			(project "uTari_kicad"
+				(path "/a349f05f-5568-4b84-b3fc-0198b55a1cf7"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 39.37 308.61 180)
 		(unit 1)
@@ -16052,7 +16250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
 			(at 39.37 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -16324,7 +16522,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 133.35 540.258 90)
 			(hide yes)
 			(show_name no)
@@ -16373,6 +16571,123 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_US")
+		(at 711.2 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c5d0446-319d-49de-b72b-733e1c9b0aa5")
+		(property "Reference" "RV3"
+			(at 708.66 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Contrast"
+			(at 704.85 136.144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
+			(at 711.2 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 711.2 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Potentiometer, US symbol"
+			(at 711.2 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 711.2 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 711.2 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 711.2 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "92fabfcb-6c0a-4484-b660-faaa40166378")
+		)
+		(pin "2"
+			(uuid "664aab02-e7ae-4300-aec9-abcb9fca9883")
+		)
+		(pin "1"
+			(uuid "d679db92-67c9-4b8e-b816-5a9dc41a16fb")
+		)
+		(instances
+			(project "uTari_kicad"
+				(path "/a349f05f-5568-4b84-b3fc-0198b55a1cf7"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 727.71 270.51 90)
 		(unit 1)
@@ -16404,7 +16719,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 727.71 272.288 90)
 			(hide yes)
 			(show_name no)
@@ -16526,6 +16841,91 @@
 			(project "uTari_kicad"
 				(path "/a349f05f-5568-4b84-b3fc-0198b55a1cf7"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 723.9 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48f8c262-9b8a-450c-a677-818463a23c5c")
+		(property "Reference" "J7"
+			(at 726.44 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 726.44 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 723.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 723.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 723.9 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2da7e488-730d-4e2f-aea9-82390096620e")
+		)
+		(pin "2"
+			(uuid "0be02592-ca43-48ee-8306-4ef83a108e84")
+		)
+		(pin "3"
+			(uuid "189b41a2-0e88-4032-b268-707ec2827fe3")
+		)
+		(instances
+			(project "uTari_kicad"
+				(path "/a349f05f-5568-4b84-b3fc-0198b55a1cf7"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -16721,7 +17121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 741.172 287.02 90)
 			(hide yes)
 			(show_name no)
@@ -16881,7 +17281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 49.53 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -16961,7 +17361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P7.50mm"
 			(at 664.21 381 0)
 			(hide yes)
 			(show_name no)
@@ -17043,7 +17443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 46.99 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -17123,7 +17523,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
 			(at 39.37 292.1 0)
 			(hide yes)
 			(show_name no)
@@ -17363,7 +17763,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 650.24 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -17524,7 +17924,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D16.0mm_H31.5mm_P7.50mm"
 			(at 53.6448 528.32 0)
 			(hide yes)
 			(show_name no)
@@ -18117,7 +18517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical"
 			(at 241.3 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -18263,7 +18663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 39.37 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -18345,7 +18745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 686.562 259.08 90)
 			(hide yes)
 			(show_name no)
@@ -18583,7 +18983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P10.00mm"
 			(at 689.61 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -18663,7 +19063,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 694.69 257.048 90)
 			(hide yes)
 			(show_name no)
@@ -18743,7 +19143,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
 			(at 643.89 285.75 0)
 			(hide yes)
 			(show_name no)
@@ -18901,7 +19301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 55.88 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -19217,7 +19617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 740.41 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -19299,7 +19699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 709.422 247.65 90)
 			(hide yes)
 			(show_name no)
@@ -19457,7 +19857,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Resonator-2Pin_W10.0mm_H5.0mm"
 			(at 732.79 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -19615,7 +20015,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
 			(at 81.28 535.94 0)
 			(hide yes)
 			(show_name no)
@@ -19778,7 +20178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 717.042 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -19860,7 +20260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 642.112 339.09 90)
 			(hide yes)
 			(show_name no)
@@ -19940,7 +20340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 750.57 201.168 90)
 			(hide yes)
 			(show_name no)
@@ -20179,7 +20579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D11.0mm_W5.0mm_P10.00mm"
 			(at 88.9 541.02 0)
 			(hide yes)
 			(show_name no)
@@ -20259,7 +20659,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
 			(at 39.37 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -20423,7 +20823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 142.24 541.02 0)
 			(hide yes)
 			(show_name no)
@@ -20505,7 +20905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 760.222 195.58 90)
 			(hide yes)
 			(show_name no)
@@ -20587,7 +20987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 729.742 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -20669,7 +21069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 52.07 311.15 0)
 			(hide yes)
 			(show_name no)
@@ -20876,7 +21276,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 29.21 535.94 0)
+		(at 34.29 535.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20887,7 +21287,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2afdf07-a226-4e22-9300-c787d271a589")
 		(property "Reference" "#FLG01"
-			(at 29.21 534.035 0)
+			(at 34.29 534.035 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20898,7 +21298,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 29.21 530.86 0)
+			(at 34.29 530.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20908,7 +21308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 535.94 0)
+			(at 34.29 535.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20919,7 +21319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 535.94 0)
+			(at 34.29 535.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20930,7 +21330,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 29.21 535.94 0)
+			(at 34.29 535.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20986,7 +21386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 437.642 279.4 90)
 			(hide yes)
 			(show_name no)
@@ -21066,7 +21466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 			(at 72.39 531.495 0)
 			(hide yes)
 			(show_name no)
@@ -21274,7 +21674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 72.39 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -21433,7 +21833,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 80.01 320.548 90)
 			(hide yes)
 			(show_name no)
@@ -21591,7 +21991,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 732.79 245.618 90)
 			(hide yes)
 			(show_name no)
@@ -21673,7 +22073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 55.88 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -21753,7 +22153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P7.50mm"
 			(at 665.48 359.41 0)
 			(hide yes)
 			(show_name no)
@@ -22147,7 +22547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 125.73 541.02 0)
 			(hide yes)
 			(show_name no)
@@ -22229,7 +22629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 747.522 238.76 90)
 			(hide yes)
 			(show_name no)
@@ -22546,6 +22946,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 86.36 538.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af81fb46-5255-4a35-a772-0fdf20c63abe")
+		(property "Reference" "#FLG03"
+			(at 86.36 536.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 86.36 533.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 538.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 538.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 86.36 538.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0d3fab2-2801-413b-83b2-3de8eb2955fe")
+		)
+		(instances
+			(project "uTari_kicad"
+				(path "/a349f05f-5568-4b84-b3fc-0198b55a1cf7"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 793.75 241.3 180)
 		(unit 1)
@@ -22577,7 +23055,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
 			(at 793.75 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -22735,7 +23213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 49.53 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -23053,7 +23531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 652.272 281.94 90)
 			(hide yes)
 			(show_name no)
@@ -23211,7 +23689,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 741.68 254.508 90)
 			(hide yes)
 			(show_name no)
@@ -23293,7 +23771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 85.09 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -23375,7 +23853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 772.922 222.25 90)
 			(hide yes)
 			(show_name no)
@@ -23457,7 +23935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 59.69 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -23539,7 +24017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 59.69 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -23698,7 +24176,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P7.50mm"
 			(at 662.94 391.16 0)
 			(hide yes)
 			(show_name no)
@@ -23858,7 +24336,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal"
 			(at 730.25 298.45 0)
 			(hide yes)
 			(show_name no)
@@ -24054,7 +24532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 64.77 285.75 0)
 			(hide yes)
 			(show_name no)
@@ -24136,7 +24614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 798.322 203.2 90)
 			(hide yes)
 			(show_name no)
@@ -24296,7 +24774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 54.61 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -24454,7 +24932,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical"
 			(at 38.1 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -24557,7 +25035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 651.002 339.09 90)
 			(hide yes)
 			(show_name no)
@@ -24639,7 +25117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
 			(at 760.222 231.14 90)
 			(hide yes)
 			(show_name no)
@@ -24721,7 +25199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 380.492 273.05 90)
 			(hide yes)
 			(show_name no)
@@ -24882,7 +25360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 670.052 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -25042,7 +25520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 642.112 351.79 90)
 			(hide yes)
 			(show_name no)
@@ -25122,7 +25600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 39.37 347.98 0)
 			(hide yes)
 			(show_name no)
@@ -25361,7 +25839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 734.822 256.54 90)
 			(hide yes)
 			(show_name no)
@@ -25601,7 +26079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 25.4 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -25839,7 +26317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 229.362 247.65 90)
 			(hide yes)
 			(show_name no)
@@ -25919,7 +26397,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 641.35 370.84 0)
 			(hide yes)
 			(show_name no)
@@ -26080,7 +26558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 48.26 538.48 0)
 			(hide yes)
 			(show_name no)
@@ -26162,7 +26640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 25.4 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -26242,7 +26720,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 108.585 542.29 0)
 			(hide yes)
 			(show_name no)
@@ -26486,7 +26964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 68.58 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -26691,87 +27169,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+9V")
-		(at 29.21 535.94 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd3e2b57-a85b-4406-a5a8-b160d367f253")
-		(property "Reference" "#PWR01"
-			(at 33.02 535.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+9V"
-			(at 25.4 535.9399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 535.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 535.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 29.21 535.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "827172dc-fb30-4e28-bb0f-e5cad0ade71b")
-		)
-		(instances
-			(project "uTari_kicad"
-				(path "/a349f05f-5568-4b84-b3fc-0198b55a1cf7"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 29.21 538.48 180)
+		(at 34.29 538.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26782,7 +27181,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe927a5d-1ee4-4b66-a4bd-88edcd9d26e4")
 		(property "Reference" "#FLG02"
-			(at 29.21 540.385 0)
+			(at 34.29 540.385 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26793,7 +27192,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 29.21 543.56 0)
+			(at 34.29 543.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26803,7 +27202,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 538.48 0)
+			(at 34.29 538.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26814,7 +27213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 538.48 0)
+			(at 34.29 538.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26825,7 +27224,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 29.21 538.48 0)
+			(at 34.29 538.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
