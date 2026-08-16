@@ -117,7 +117,7 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -145,9 +145,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerber/")
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
@@ -8593,7 +8593,7 @@
 				)
 			)
 		)
-		(property "Value" "1.6K"
+		(property "Value" "2.2K"
 			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "b22e4ca5-bc06-4d94-8123-ad0bd9383b78")
@@ -12423,7 +12423,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "3.3K"
 			(at 7.62 0 0)
 			(layer "F.SilkS")
 			(uuid "cffe0e1c-ba9d-4f68-9913-9ccb5a610d89")
@@ -20094,7 +20094,7 @@
 				)
 			)
 		)
-		(property "Value" "Reset"
+		(property "Value" "Select"
 			(at 3.2004 6.7352 0)
 			(layer "F.SilkS")
 			(uuid "3b69bb9f-33a0-4521-b5a0-ad7426f0e11e")
@@ -21677,7 +21677,7 @@
 				)
 			)
 		)
-		(property "Value" "Select"
+		(property "Value" "Reset"
 			(at 3.1472 6.7352 0)
 			(layer "F.SilkS")
 			(uuid "a2cf3211-eef6-45d8-9ff3-52d148630242")

@@ -18811,7 +18811,7 @@
 				)
 			)
 		)
-		(property "Value" "Select"
+		(property "Value" "Reset"
 			(at 39.37 336.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24080,7 +24080,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.6K"
+		(property "Value" "2.2K"
 			(at 777.24 223.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25344,7 +25344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K"
+		(property "Value" "3.3K"
 			(at 764.54 232.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25828,7 +25828,7 @@
 				)
 			)
 		)
-		(property "Value" "Reset"
+		(property "Value" "Select"
 			(at 39.37 347.98 0)
 			(show_name no)
 			(do_not_autoplace no)
