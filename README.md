@@ -12,3 +12,11 @@ An original 2600 PCB measures about 9.75 x 5.25 inches. The µTari PCB is 4.7 x 
     <td align="center"><em>Original Atari 2600 PCB (top) compared with the µTari PCB (bottom).</em></td>
   </tr>
 </table>
+
+# How
+
+The Atari 2600 has large switches, as well as controller and cartridge ports, that are quite nice to have for a home console. I have replaced the large switches with tiny switches and buttons. The ports have been replaced with pin headers because my eventual plan is to turn this into a handheld, so I don't want ports on the main board.
+
+Aside from that, I removed the RF modulator (which is normally at the bottom right of the 2600 PCB) and did a composite mod that replaces it with a single transistor and two resistors. That saves a fair amount of space, and produces a cleaner signal that is compatible with more modern TVs.
+
+The remainder of the circuit is copied from the original Atari PCB. The 6507, TIA, and RIOT were transplanted to the new board. Since the rest of the components (mostly resistors, capacitors, transistors, and such) can still be purchased new, I used brand new to leave the original board as intact as possible. All I would need to do is pop the chips back in the IC sockets for the 2600 to work again — no Ataris were harmed in the making of the µTari.
