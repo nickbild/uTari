@@ -27,3 +27,6 @@ I started by breadboarding the circuit:
 
 ![](https://raw.githubusercontent.com/nickbild/uTari/refs/heads/main/media/breadboard_close_sm.jpg)
 
+Once I was convinced it was working properly, I drew the circuit diagram in KiCad before laying out a PCB and having it manufactured:
+
+![](https://raw.githubusercontent.com/nickbild/uTari/refs/heads/main/media/utari_sm.jpg)
