@@ -36,3 +36,7 @@ It plays just like the real thing, because it is the real thing:
 ![](https://raw.githubusercontent.com/nickbild/uTari/refs/heads/main/media/utari_ready_sm.jpg)
 
 ![](https://raw.githubusercontent.com/nickbild/uTari/refs/heads/main/media/space_invaders_sm.jpg)
+
+## About the Author
+
+[Nick A. Bild, MS](https://nickbild79.firebaseapp.com/#!/)
