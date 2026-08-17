@@ -20,3 +20,10 @@ The Atari 2600 has large switches, as well as controller and cartridge ports, th
 Aside from that, I removed the RF modulator (which is normally at the bottom right of the 2600 PCB) and did a composite mod that replaces it with a single transistor and two resistors. That saves a fair amount of space, and produces a cleaner signal that is compatible with more modern TVs.
 
 The remainder of the circuit is copied from the original Atari PCB. The 6507, TIA, and RIOT were transplanted to the new board. Since the rest of the components (mostly resistors, capacitors, transistors, and such) can still be purchased new, I used brand new to leave the original board as intact as possible. All I would need to do is pop the chips back in the IC sockets for the 2600 to work again — no Ataris were harmed in the making of the µTari.
+
+I started by breadboarding the circuit:
+
+![](https://raw.githubusercontent.com/nickbild/uTari/refs/heads/main/media/breadboard_running_sm.jpg)
+
+![](https://raw.githubusercontent.com/nickbild/uTari/refs/heads/main/media/breadboard_close_sm.jpg)
+
