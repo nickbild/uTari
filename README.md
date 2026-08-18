@@ -13,6 +13,9 @@ An original 2600 PCB measures about 9.75 x 5.25 inches. The µTari PCB is 4.7 x 
   </tr>
 </table>
 
+**Check out the video on YouTube:**
+<a href="https://www.youtube.com/watch?v=0-NlkX1Ed90">![](https://raw.githubusercontent.com/nickbild/uTari/refs/heads/main/media/teaser_play.jpg)</a>
+
 ## How
 
 The Atari 2600 has large switches, as well as controller and cartridge ports, that are quite nice to have for a home console. I have replaced the large switches with tiny switches and buttons. The ports have been replaced with pin headers because my eventual plan is to turn this into a handheld, so I don't want ports on the main board.
